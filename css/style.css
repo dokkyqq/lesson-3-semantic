@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+main {
+  flex: 3;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+aside {
+  flex: 1;
+  padding: 1rem;
+  background-color: #e0e0e0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+}
